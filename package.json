@@ -2,10 +2,12 @@
   "name": "filec",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "npx tsc"
   },
+  "bin": "./dist/index.js",
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -14,8 +16,8 @@
     "typescript": "^5.7.2"
   },
   "dependencies": {
+    "@e965/xlsx": "^0.20.3",
     "@inquirer/prompts": "^7.2.1",
-    "fs": "0.0.1-security",
-    "xlsx": "^0.18.5"
+    "fs": "0.0.1-security"
   }
 }

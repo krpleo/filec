@@ -1,5 +1,5 @@
 import * as fs from "fs";
-import XLSX from "xlsx";
+import XLSX from "@e965/xlsx";
 import {listAvailableFiles} from "../utils/available-files";
 import {select} from "@inquirer/prompts";
 import {parseFileName} from "../utils/file-name-parser";
