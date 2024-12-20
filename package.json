@@ -11,7 +11,7 @@
     "start": "npx tsc && node dist/index.js"
   },
   "bin": {
-    "filec": "dist/index.js"
+    "filec": "src/filec.ts"
   },
   "keywords": [],
   "author": "",
