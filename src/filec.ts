@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import {select} from '@inquirer/prompts'
 import {xls2json} from "./conversions/xls2json";
 
