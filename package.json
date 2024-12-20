@@ -1,0 +1,21 @@
+{
+  "name": "filec",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "@inquirer/prompts": "^7.2.1",
+    "fs": "0.0.1-security",
+    "xlsx": "^0.18.5"
+  }
+}
